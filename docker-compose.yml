@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  backend:
+    image: "004244720045.dkr.ecr.ap-northeast-2.amazonaws.com/hq-api-v2:latest"
+    container_name: hq-api
+    mem_limit: 512m
+    ports:
+      - "80:4000"

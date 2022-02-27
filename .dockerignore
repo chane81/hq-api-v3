@@ -1,0 +1,20 @@
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+
+.git
+
+.gitignore
+
+dist
+
+.uploads
+
+README.md
+
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
